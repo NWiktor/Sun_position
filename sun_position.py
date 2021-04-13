@@ -19,6 +19,7 @@ def day_to_time(time):  # tizedesjegyben kifejezve, ez kell?
 
 
 def JD(year, month, day, hour, minute, info):
+    # https://quasar.as.utexas.edu/BillInfo/JulianDatesG.html
     Y = year
     M = month
     D = day + float(hour)/24 + float(minute)/1440
